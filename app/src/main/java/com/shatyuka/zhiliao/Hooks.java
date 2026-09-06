@@ -9,6 +9,7 @@ import com.shatyuka.zhiliao.hooks.AutoRefresh;
 import com.shatyuka.zhiliao.hooks.Cleaner;
 import com.shatyuka.zhiliao.hooks.ColorMode;
 import com.shatyuka.zhiliao.hooks.CommentAd;
+import com.shatyuka.zhiliao.hooks.CopyUnlock;
 import com.shatyuka.zhiliao.hooks.CustomFilter;
 import com.shatyuka.zhiliao.hooks.ExternLink;
 import com.shatyuka.zhiliao.hooks.FeedAd;
@@ -63,6 +64,7 @@ public class Hooks {
             new ThirdPartyLogin(),
             new NavRes(),
             new WebView(),
+            new CopyUnlock(),
             new Cleaner(),
             new FeedTopHotBanner(),
             new HeadZoneBanner(),
